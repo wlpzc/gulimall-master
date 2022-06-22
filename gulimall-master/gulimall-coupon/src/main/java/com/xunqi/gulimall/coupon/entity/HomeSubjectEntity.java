@@ -38,7 +38,9 @@ public class HomeSubjectEntity implements Serializable {
 	/**
 	 * 显示状态
 	 */
-	private Boolean status;
+	private Integer status;
+//	private Boolean status;
+
 	/**
 	 * 详情连接
 	 */
