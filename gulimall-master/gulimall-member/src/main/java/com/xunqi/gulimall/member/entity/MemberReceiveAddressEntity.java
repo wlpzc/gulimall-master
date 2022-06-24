@@ -53,6 +53,10 @@ public class MemberReceiveAddressEntity implements Serializable {
 	 */
 	private String region;
 	/**
+	 * 镇
+	 */
+	private String town;
+	/**
 	 * 详细地址(街道)
 	 */
 	private String detailAddress;
