@@ -6,8 +6,8 @@ import java.util.List;
 /**
  * @Description: 购物项内容
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-30 16:43
+ * @author: fjy
+ * @createTime: 2022-06-30 16:43
  **/
 
 public class CartItemVo {

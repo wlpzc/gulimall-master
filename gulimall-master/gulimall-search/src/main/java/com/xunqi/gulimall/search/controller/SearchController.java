@@ -1,5 +1,6 @@
 package com.xunqi.gulimall.search.controller;
 
+import com.xunqi.common.utils.R;
 import com.xunqi.gulimall.search.service.MallSearchService;
 import com.xunqi.gulimall.search.vo.SearchParam;
 import com.xunqi.gulimall.search.vo.SearchResult;
@@ -7,15 +8,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-12 18:07
+ * @author: fjy
+ * @createTime: 2022-06-12 18:07
  **/
+
 
 @Controller
 public class SearchController {
@@ -40,5 +43,4 @@ public class SearchController {
 
         return "list";
     }
-
 }

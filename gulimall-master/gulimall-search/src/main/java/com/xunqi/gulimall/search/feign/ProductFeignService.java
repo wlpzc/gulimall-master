@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-18 09:15
+ * @author: fjy
+ * @createTime: 2022-06-18 09:15
  **/
 
 @FeignClient("gulimall-product")

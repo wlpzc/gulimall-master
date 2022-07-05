@@ -1,13 +1,10 @@
 spring:
-  elasticsearch:
-    rest:
-      uris: http://192.168.9.111:9200
   cloud:
 
     sentinel:
       transport:
         #配置sentinel dashboard地址
-        dashboard: 192.168.9.111:8080
+        dashboard: localhost:8080
 
     gateway:
       routes:
@@ -115,5 +112,5 @@ management:
         include: '*'
 
   ## 前端项目，/api
-## http://192.168.9.111:88/api/captcha.jpg   http://192.168.9.111:8080/renren-fast/captcha.jpg
-## http://192.168.9.111:88/api/product/category/list/tree http://192.168.9.111:10000/product/category/list/tree
+## http://localhost:88/api/captcha.jpg   http://localhost:8080/renren-fast/captcha.jpg
+## http://localhost:88/api/product/category/list/tree http://localhost:10000/product/category/list/tree

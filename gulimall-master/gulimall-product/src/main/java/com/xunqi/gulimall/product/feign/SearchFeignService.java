@@ -11,8 +11,8 @@ import java.util.List;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-06 17:12
+ * @author: fjy
+ * @createTime: 2022-06-06 17:12
  **/
 
 @FeignClient("gulimall-search")

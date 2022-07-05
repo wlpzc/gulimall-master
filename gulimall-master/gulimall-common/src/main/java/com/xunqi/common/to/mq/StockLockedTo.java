@@ -5,8 +5,8 @@ import lombok.Data;
 /**
  * @Description: 发送到mq消息队列的to
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-06 21:03
+ * @author: fjy
+ * @createTime: 2022-05-06 21:03
  **/
 
 @Data

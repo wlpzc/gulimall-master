@@ -9,8 +9,8 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 /**
  * @Description: 解决跨域的配置
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-05-23 23:02
+ * @author: fjy
+ * @createTime: 2022-05-23 23:02
  **/
 
 @Configuration

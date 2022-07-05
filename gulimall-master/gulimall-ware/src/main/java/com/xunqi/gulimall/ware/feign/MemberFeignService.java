@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-03 19:14
+ * @author: fjy
+ * @createTime: 2022-05-03 19:14
  **/
 
 @FeignClient("gulimall-member")

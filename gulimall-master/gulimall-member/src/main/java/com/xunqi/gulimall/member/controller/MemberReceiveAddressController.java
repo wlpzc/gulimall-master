@@ -16,9 +16,9 @@ import java.util.Map;
 /**
  * 会员收货地址
  *
- * @author 夏沫止水
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:42:06
+ * @author fjy
+ * @email m17680374959@163.com
+ * @date 2022-05-22 19:42:06
  */
 @RestController
 @RequestMapping("member/memberreceiveaddress")
@@ -34,6 +34,20 @@ public class MemberReceiveAddressController {
      */
     @GetMapping(value = "/{memberId}/address")
     public List<MemberReceiveAddressEntity> getAddress(@PathVariable("memberId") Long memberId) {
+
+        List<MemberReceiveAddressEntity> addressList = memberReceiveAddressService.getAddress(memberId);
+
+        return addressList;
+    }
+
+
+    /**
+     * 根据会员id查询会员的所有地址
+     * @param memberId
+     * @return
+     */
+    @GetMapping(value = "/{memberId}/address")
+    public List<MemberReceiveAddressEntity> addAddress(@PathVariable("memberId") Long memberId) {
 
         List<MemberReceiveAddressEntity> addressList = memberReceiveAddressService.getAddress(memberId);
 

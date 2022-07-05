@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-09 19:33
+ * @author: fjy
+ * @createTime: 2022-05-09 19:33
  **/
 
 @FeignClient("gulimall-coupon")

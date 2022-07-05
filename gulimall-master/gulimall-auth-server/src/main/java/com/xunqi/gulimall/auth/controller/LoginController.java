@@ -31,8 +31,8 @@ import static com.xunqi.common.constant.AuthServerConstant.LOGIN_USER;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-24 10:37
+ * @author: fjy
+ * @createTime: 2022-06-24 10:37
  **/
 
 @Controller

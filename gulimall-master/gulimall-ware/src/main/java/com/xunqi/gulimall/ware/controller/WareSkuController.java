@@ -20,9 +20,9 @@ import static com.xunqi.common.exception.BizCodeEnum.NO_STOCK_EXCEPTION;
 /**
  * 商品库存
  *
- * @author 夏沫止水
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:55:33
+ * @author fjy
+ * @email m17680374959@163.com
+ * @date 2022-05-22 19:55:33
  */
 @RestController
 @RequestMapping("ware/waresku")

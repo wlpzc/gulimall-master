@@ -13,8 +13,8 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-12 15:19
+ * @author: fjy
+ * @createTime: 2022-06-12 15:19
  **/
 
 @EnableConfigurationProperties(CacheProperties.class)

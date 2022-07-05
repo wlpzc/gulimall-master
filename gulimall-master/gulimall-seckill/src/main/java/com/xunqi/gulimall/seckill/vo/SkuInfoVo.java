@@ -8,13 +8,15 @@ import java.math.BigDecimal;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-09 21:43
+ * @author: fjy
+ * @createTime: 2022-05-09 21:43
  **/
 
 @Data
 public class SkuInfoVo {
 
+    @JsonProperty(value = "pNum")
+    private String pNum;
     private Long skuId;
     /**
      * spuId
@@ -44,8 +46,6 @@ public class SkuInfoVo {
      * 标题
      */
     private String skuTitle;
-    @JsonProperty(value = "pNum")
-    private String pNum;
     /**
      * 副标题
      */

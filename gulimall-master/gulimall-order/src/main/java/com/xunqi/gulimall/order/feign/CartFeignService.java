@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-02 20:11
+ * @author: fjy
+ * @createTime: 2022-05-02 20:11
  **/
 
 @FeignClient("gulimall-cart")

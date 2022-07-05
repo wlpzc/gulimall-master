@@ -6,62 +6,23 @@ server:
       timeout: 30m
 
 spring:
-  elasticsearch:
-    rest:
-      uris: http://192.168.9.111:9200
   application:
     name: gulimall-auth-server
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.9.111:8848
+        server-addr: localhost:8848
 
     sentinel:
       transport:
-        dashboard: 192.168.9.111:8080
-
-#  redis:
-#    host: 192.168.9.111
-#    port: 6379
-#    password:
-#    database: 1
-#    timeout: 30s
-#    ## springboot2.0之后将连接池由jedis改为lettuce
-#    lettuce:
-#      pool:
-#        max-idle: 30
-#        max-active: 8
-#        max-wait: 10000
-#        min-idle: 10
+        #配置sentinel dashboard地址
+        dashboard: localhost:8080
 
   redis:
-    # 是否开启redis缓存  true开启   false关闭
-    open: false
-    database: 0
-    host: 192.168.9.111
+    host: 127.0.0.1
     port: 6379
-    password:
-    timeout: 60s
-#    lettuce:
-#      pool:
-#        max-active: 8
-#        max-wait: -1ms
-#        max-idle: 8
-#        min-idle: 0
-    lettuce:
-      pool:
-        max-idle: 30
-        max-active: 8
-        max-wait: 10000
-        min-idle: 10
 
-#      jedis:
-#      pool:
-#        min-idle: 10
-#        max-idle: 20
-#        max-wait: -1ms
-#        max-active: 200
-
+#开启feign对sentinel的支持
 feign:
   sentinel:
     enabled: true
@@ -73,9 +34,12 @@ feign:
   session:
     store-type: redis
 
+#暴露所有端点
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+
+
 

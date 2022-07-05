@@ -22,8 +22,8 @@ import static com.lly835.bestpay.enums.BestPayTypeEnum.WXPAY_NATIVE;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-08 10:54
+ * @author: fjy
+ * @createTime: 2022-05-08 10:54
  **/
 
 @Slf4j

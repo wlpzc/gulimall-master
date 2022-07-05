@@ -10,9 +10,9 @@ import lombok.Data;
 /**
  * 会员登录记录
  * 
- * @author 夏沫止水
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:42:06
+ * @author fjy
+ * @email m17680374959@163.com
+ * @date 2022-05-22 19:42:06
  */
 @Data
 @TableName("ums_member_login_log")
