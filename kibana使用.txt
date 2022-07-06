@@ -1,0 +1,5 @@
+不能使用默认创建的索引结构
+1 如果已经创建索引，则需要删除索引，直接在管理页删除 或者 在命令页 执行 DELETE gulimall_product
+
+2 步骤一走完 重新创建索引，文件为【product-mapping.txt】 中的文件 命令：PUT 索引名 {mapping...}
+
